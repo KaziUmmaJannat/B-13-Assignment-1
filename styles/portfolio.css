@@ -7,17 +7,25 @@
 }
 
 header{
-    background-color: #FFFFFF;
+   
     padding: 16px 120px;
 }  
+#banner{
+    background-image: url("../assets/hero-bg.png");
+    max-width: 1600px;
+    max-Height:674px  ;
+    padding:116px 120px 180px;
+
+  
+}
 
 nav{
    max-width:1600px;
    margin: 0px auto;
-   
+   background-color:#FFFFFF;
    display: flex;
    justify-content: space-between;
-   
+   padding:0 120px;
 }
 
 nav .item{
@@ -46,11 +54,60 @@ nav .item a{
 
 .btn{
 background-color: #30B868;
-padding:12px, 16px;
-border:none;
+color:#FFFFFF;
+padding:12px 16px;
 border-radius: 4px;
 font-size: 16px;
-font-weight: Semi Bold;
+margin-bottom: 25px;
+gap:16px;
+cursor: pointer;
+}
+.btn:hover{
+    background-color:#013215 ;
+}
+
+.btn1{
+background:none;
+color:#FFFFFF;
+font-size: 16px;
+padding:12px 16px;
+border-radius: 4px;
+cursor: pointer; 
+}
+
+.btn1:hover{
+    background-color:#013215;
+}
+
+#banner .item{
+width: 1360px;
+height:379px;
+text-align: center;
+}
+
+.item .item1{
+background-color: #FFFFFF;
+width:229px;
+border:none;
+border-radius: 1000px;
+padding: 8px 12px;
+justify-content: center;
+text-align: center;
+margin:0 auto;
+}
+
+.item .item2{
+font-size: 36px;
 margin-top: 16px;
-margin-right: 120px;
+line-height: 84px;
+}
+
+.item .item3{
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-top: 16px;
+}
+
+.item .item4{
+    gap:16px;
 }
