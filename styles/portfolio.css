@@ -59,7 +59,6 @@ padding:12px 16px;
 border-radius: 4px;
 font-size: 16px;
 margin-bottom: 25px;
-gap:16px;
 cursor: pointer;
 }
 .btn:hover{
@@ -110,4 +109,66 @@ line-height: 84px;
 
 .item .item4{
     gap:16px;
+}
+#notes{
+   text-align: center;
+}
+
+#notes .notes-container{
+    max-width:1360px ;
+    margin-bottom: 44px;
+    margin: 0 auto;
+    
+}
+
+#notes .notes-container .notes-1{
+    display:flex;
+    gap:24px;
+}
+
+.notes-header{
+    max-width: 1360px;
+    font-size: 30px;
+    text-align: center;
+   margin-bottom: 16px;
+   color:#001931 ;
+    
+}
+
+.notes-pera{
+    max-width: 1360px;
+    text-align: center;
+   margin-bottom: 44px;
+   font-size: 16px;
+   line-height: 20px;
+   color:#627382 ;
+    
+}
+
+.notes-1 .notes-card{
+    padding: 24px;
+    text-align: center;
+    box-shadow: 0 0 8px 0 #000000;
+    max-width: 322px;
+}
+
+.notes-card img{
+    background-color: red;
+    border-radius: 30px;
+    padding:5px;
+    max-width:60px ;
+    margin-bottom:16px ;
+}
+
+.notes-card h3{
+    font-size:24px ;
+    color: semi bold;
+    margin-bottom:16px ;
+}
+
+.notes-card p{
+    font-size: 16px;
+    color:#627382;
+    line-height: 20px;
+    
 }
