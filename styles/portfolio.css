@@ -10,14 +10,6 @@ header{
    
     padding: 16px 120px;
 }  
-#banner{
-    background-image: url("../assets/hero-bg.png");
-    max-width: 1600px;
-    max-Height:674px  ;
-    padding:116px 120px 180px;
-
-  
-}
 
 nav{
    max-width:1600px;
@@ -80,6 +72,15 @@ cursor: pointer;
     background-color:#013215;
 }
 
+#banner{
+    background-image: url("../assets/hero-bg.png");
+    max-width: 1600px;
+    max-Height:674px  ;
+    padding:116px 120px 180px;
+
+  
+}
+
 #banner .item{
 width: 1360px;
 height:379px;
@@ -88,11 +89,10 @@ text-align: center;
 
 .item .item1{
 background-color: #FFFFFF;
-width:229px;
+width:240px;
 border:none;
 border-radius: 1000px;
 padding: 8px 12px;
-justify-content: center;
 text-align: center;
 margin:0 auto;
 color: #30B868;
@@ -114,16 +114,17 @@ line-height: 84px;
 .item .item3{
     font-size: 18px;
     color: #FFFFFF;
-    width:1360px;
-
     margin-top: 16px;
 }
 
 .item .item4{
     gap:16px;
     max-width: 465;
-
+    display:flex;
+    justify-content: center;
+    margin-top:32px;
 }
+
 #notes{
    text-align: center;
 }
