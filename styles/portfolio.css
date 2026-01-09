@@ -172,3 +172,66 @@ line-height: 84px;
     line-height: 20px;
     
 }
+
+#solution{
+    margin: 120px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#solution .solution-container p{
+    font-size: 16px;
+    line-height: 20px;
+  color:#30B868;
+  gap:60px;
+  margin-bottom: 40px;
+  padding:102px;
+ 
+}
+
+#solution .solution-container h2{
+font-size: 48px;
+  color:#001931;
+  font-weight: bold;
+ margin-bottom: 16px;
+}
+
+
+
+.solution-container .solution-image{
+  width: 600px;
+  height: 600px;
+  border-radius: 12px;
+}
+
+.solution-content .s.text {
+  margin: 102px 0px;
+}
+ .solution1{
+    font-size: 16px;
+    line-height: 20px;
+    width:700px;
+ }
+
+ #access .access-container{
+    text-align: center;
+    margin:0 auto;
+    background-color: #F7F6F2;
+    max-width:1360px ;
+    padding:80px 40px;
+ }
+
+  #access .access-container p{
+    font-size:16px ;
+    line-height: 24px;
+    color:#627382;
+    margin-top: 24px;
+    margin-bottom:16x ;
+  }
+
+  #access .access-container h2{
+    font-size:40px ;
+    font-weight: bold;
+    margin-top: 80px;
+  }
