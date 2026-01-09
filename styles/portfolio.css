@@ -85,6 +85,7 @@ cursor: pointer;
 width: 1360px;
 height:379px;
 text-align: center;
+justify-content: center;
 }
 
 .item .item1{
@@ -198,6 +199,7 @@ line-height: 84px;
     padding: 120px;
     display: flex;
     width:1360px;
+    height: 600px;
     gap:60px;
     margin-bottom: 120px;
     justify-content: center;
@@ -217,8 +219,6 @@ line-height: 84px;
 }
 
 .stext-0 p{
-max-height: 700px;
-padding-bottom:  102px;
 color:#30B868;
 
 }
