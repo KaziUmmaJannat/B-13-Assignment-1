@@ -103,9 +103,14 @@ font-size: 36px;
 margin-top: 16px;
 line-height: 84px;
 }
+
+.color-white{
+  color:#FFFFFF
+}
 .color-green{
   color:#30B868;
 }
+
 #green{
    color: #30B868;
 }
